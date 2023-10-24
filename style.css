@@ -1,0 +1,81 @@
+body{
+    background-color: bisque;
+    color: #313d51;
+    margin:0; 
+    padding:0; 
+    font-family: cursive;
+}
+.d-inline {
+    display: inline!important;}
+
+header h1{
+color: brown;
+text-align: center;
+margin-left:170px;
+padding-top: 50px;
+}
+
+
+#recipe1, #recipe2, #recipe3, #recipe4{
+    font-size: 16px;
+    line-height: normal;
+    text-align: left;
+    color: #313d51;
+    position: relative;
+    margin-top: 50px;
+}
+
+.kisi , .hazirlama , .pisirme {
+    position: relative;
+    float:left;
+    align-items: center;
+    border-bottom: 3px solid brown;
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    margin:50px 0px 0px 20px;
+    font-size: 9px;
+}
+
+
+p{
+   background-color: brown;
+    border-radius: 10px;
+    text-align: center;
+    color: beige;
+    margin-right: 45%;
+    margin-top:20px;
+    position: relative;
+    float: right;
+
+}
+.recipe-title{
+    background-color: brown;
+    border-radius: 10px;
+    text-align: center;
+    color: beige;
+    position: relative;
+    float: right;
+    margin:10px 45% 0px 0px ;
+ 
+}
+h4{
+    position: relative;
+    margin: 80px 0px 0px 15px;
+}
+#recipe{
+    float: left;
+ }
+
+ li{
+    color: #313d51;
+    margin: 0px 0px 10px 15px;
+}
+.footer{
+    position: relative;
+    float: right;
+    padding: 0px 20px 30px 0px;
+    color: #313d51;
+    margin-top:45%;
+}
